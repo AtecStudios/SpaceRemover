@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/AtecStudios/SpaceRemover.svg?branch=master)](https://travis-ci.org/AtecStudios/SpaceRemover)
+
 # SpaceRemover
 Automatically Remove Spaces from all files in a directory. Made as a private too for removing spaces in font names when making websites.
 
