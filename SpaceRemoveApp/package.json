@@ -1,0 +1,14 @@
+{
+  "name": "space-remover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "walk": "^2.3.9"
+  }
+}
