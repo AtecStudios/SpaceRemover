@@ -7,7 +7,7 @@ var SpaceRemover = require('./SpaceRemover.js');
 
 var TestDir = 'TestFiles/';
 var FilesFound = 0;
-var ToCreate = 10;
+var ToCreate = 25;
 var fs = require('fs');
 
 for(var i=0;i<ToCreate;i++)
@@ -36,7 +36,7 @@ SpaceRemover.GetFiles(function(files){
         newFileName: function(){
           var newFileName;
           SpaceRemover.CycleFiles(files);
-          SpaceRemover.GetFiles(function(files){newFileName = files[0].Name;return newFileName}, TestDir);
+          //SpaceRemover.GetFiles(function(files){newFileName = files[0].Name;return newFileName}, TestDir);
 
         },
 

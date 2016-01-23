@@ -15,7 +15,7 @@ exports.GetFiles = function (callback, testPath)
   });
 
   walker.on('end', function() {
-      console.log("Found Files! ["+files.length+"]".green);
+      console.log("Found Files! [".green+files.length+"]".green);
       if(callback)
       {
         callback(files);
@@ -50,6 +50,6 @@ exports.Rename = function(path,oldName,newName)
 {
   fs.rename(path+"/"+oldName, path+"/"+newName, function (err) {
   if (err) throw err;
-  console.log("Rename Complete ["+newName+"]".green);
+  console.log("Rename Complete [".green +oldName+"-> " +newName+ "]".green);
   });
 }
